@@ -1,0 +1,56 @@
+[
+	{
+		"keys": ["ctrl+alt+j"],
+		"command": "js_format"
+	},
+
+	//复制路径
+	{
+		"keys": ["ctrl+shift+c"],
+		"command": "copy_path"
+	}, 
+	//自动添加css前缀
+	{
+		"keys": ["ctrl+shift+2"],
+		"command": "autoprefixer"
+	},
+	//chrome中预览
+	{
+		"keys": ["ctrl+alt+c"],
+		"command": "side_bar_files_open_with",
+		"args": {
+			"paths": [],
+			"application": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+			"extensions": ".html"
+		}
+	},
+	//firefox中预览
+	{
+		"keys": ["ctrl+alt+f"],
+		"command": "side_bar_files_open_with",
+		"args": {
+			"paths": [],
+			"application": "D:\\软件\\firefox\\firefox.exe",
+			"extensions": ".html"
+		}
+	},
+	//ie中预览
+	{
+		"keys": ["ctrl+alt+i"],
+		"command": "side_bar_files_open_with",
+		"args": {
+			"paths": [],
+			"application": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+			"extensions": ".html"
+		}
+	},
+	//markdown在浏览器中预览
+	{
+		"keys": ["f6"],
+		"command": "markdown_preview",
+		"args": {
+			"target": "browser",
+			"parser": "markdown"
+		}
+	},
+]

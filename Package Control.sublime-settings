@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AutoFileName",
+		"Autoprefixer",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ConvertToUTF8",
+		"CSS3",
+		"DocBlockr",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"Http Requester",
+		"IMESupport",
+		"JavaScript & NodeJS Snippets",
+		"JavaScriptNext - ES6 Syntax",
+		"JsFormat",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jshint"
+	]
+}
