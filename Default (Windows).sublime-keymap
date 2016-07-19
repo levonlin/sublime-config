@@ -53,4 +53,8 @@
 			"parser": "markdown"
 		}
 	},
+
+	{ 	"keys": ["ctrl+h", "ctrl+b"], 
+		"command": "toggle_side_bar" 
+	},
 ]
