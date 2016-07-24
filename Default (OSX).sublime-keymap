@@ -1,0 +1,50 @@
+[
+	{
+		"keys": ["ctrl+alt+j"],
+		"command": "js_format"
+	},
+
+	//复制路径
+	{
+		"keys": ["ctrl+shift+c"],
+		"command": "copy_path"
+	}, 
+	//自动添加css前缀
+	{
+		"keys": ["ctrl+shift+2"],
+		"command": "autoprefixer"
+	},
+	//chrome中预览
+	{
+		"keys": ["ctrl+alt+c"],
+		"command": "side_bar_files_open_with",
+		"args": {
+			"paths": [],
+			"application": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+			"extensions": ".html"
+		}
+	},
+	//safari中预览
+	{
+		"keys": ["ctrl+alt+s"],
+		"command": "side_bar_files_open_with",
+		"args": {
+			"paths": [],
+			"application": "/Applications/Safari.app/Contents/MacOS/Safari",
+			"extensions": ".html"
+		}
+	},
+	//markdown在浏览器中预览
+	{
+		"keys": ["f6"],
+		"command": "markdown_preview",
+		"args": {
+			"target": "browser",
+			"parser": "markdown"
+		}
+	},
+
+	{ 	"keys": ["ctrl+h", "ctrl+b"], 
+		"command": "toggle_side_bar" 
+	}
+]

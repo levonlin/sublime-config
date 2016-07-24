@@ -1,15 +1,15 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"CSS",
-		"IMESupport",
 		"Markdown",
 		"Vintage"
 	],
-	"tab_size": 4
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true
 }
