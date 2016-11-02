@@ -1,12 +1,14 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"ensure_newline_at_eof_on_save": true,
 	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"CSS",
+		"JavaScript",
+		"JavaScriptNext - ES6 Syntax",
+		"JSX",
 		"Markdown",
 		"Vintage"
 	],

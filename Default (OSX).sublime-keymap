@@ -6,7 +6,7 @@
 
 	//复制路径
 	{
-		"keys": ["ctrl+shift+c"],
+		"keys": ["super+shift+c"],
 		"command": "copy_path"
 	}, 
 	//自动添加css前缀
@@ -34,6 +34,16 @@
 			"extensions": ".html"
 		}
 	},
+	//firefox中预览
+	{
+		"keys": ["ctrl+alt+f"],
+		"command": "side_bar_files_open_with",
+		"args": {
+			"paths": [],
+			"application": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+			"extensions": ".html"
+		}
+	},
 	//markdown在浏览器中预览
 	{
 		"keys": ["f6"],
@@ -46,5 +56,39 @@
 
 	{ 	"keys": ["ctrl+h", "ctrl+b"], 
 		"command": "toggle_side_bar" 
+	},
+
+	// 让emmet在JSX中使用tab补全
+	{
+	  "keys": ["tab"], 
+	  "command": "expand_abbreviation_by_tab", 
+	  "context": [
+	    {
+	      "operand": "source.js", 
+	      "operator": "equal", 
+	      "match_all": true, 
+	      "key": "selector"
+	    }, 
+	    {
+	      "match_all": true, 
+	      "key": "selection_empty"
+	    },
+	    {
+	      "operator": "equal", 
+	      "operand": false, 
+	      "match_all": true, 
+	      "key": "has_next_field"
+	    }, 
+	    {
+	      "operand": false, 
+	      "operator": "equal", 
+	      "match_all": true, 
+	      "key": "auto_complete_visible"
+	    }, 
+	    {
+	      "match_all": true, 
+	      "key": "is_abbreviation"
+	    }
+	  ]
 	}
 ]
