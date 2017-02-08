@@ -1,0 +1,6 @@
+{
+    "selector": "source.java",
+    "path": "$PATH:/usr/local/bin",
+    "shell_cmd": "javac-algs4 $file_name && java-algs4 $file_base_name",
+    "shell": true
+}
