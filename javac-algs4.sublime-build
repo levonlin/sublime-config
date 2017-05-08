@@ -1,6 +1,6 @@
 {
     "selector": "source.java",
     "path": "$PATH:/usr/local/bin",
-    "shell_cmd": "javac-algs4 $file_name && java-algs4 $file_base_name",
-    "shell": true
+    "shell_cmd": "javac-algs4 $file_name && osascript -e 'tell application \"iTerm\"' -e 'activate' -e 'create window with default profile' -e 'tell current session of current window' -e 'write text \"cd $file_path\"' -e 'write text \"java-algs4 $file_base_name\" newline NO' -e 'end tell' -e 'end tell'",
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)"
 }

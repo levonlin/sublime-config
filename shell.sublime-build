@@ -1,0 +1,5 @@
+{
+    "selector": "source.sh",
+    "path": "$PATH",
+    "shell_cmd": "osascript -e 'tell application \"iTerm\"' -e 'activate' -e 'create window with default profile' -e 'tell current session of current window' -e 'write text \"sh $file_path/$file_name\"' -e 'end tell' -e 'end tell'"
+}

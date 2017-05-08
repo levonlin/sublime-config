@@ -10,11 +10,13 @@
 		"Autoprefixer",
 		"Babel",
 		"BracketHighlighter",
+		"Codecs33",
 		"Color Highlighter",
 		"ColorPicker",
 		"ConvertToUTF8",
 		"CSS3",
 		"DocBlockr",
+		"EJS 2",
 		"Emmet",
 		"FreeMarker",
 		"Git",
@@ -36,6 +38,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-jshint",
-		"SublimeLinter-jsxhint"
+		"SublimeLinter-jsxhint",
+		"SublimeServer"
 	]
 }
